@@ -38,7 +38,7 @@ export const AddCustomer = ({onHide,onSave}) => {
         </Modal.Header>
 
         <Modal.Body>
-           <Form action="/action-page.php" class="was-validated">
+           <Form>
             <div className="d-flex gap-3">
         <Form.Group className="mb-3 w-25">
         <Form.Label>Customer ID</Form.Label>
